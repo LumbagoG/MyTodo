@@ -1,0 +1,27 @@
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #0F3057;
+  opacity: 0.9;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  -webkit-perspective: 500;
+          perspective: 500;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 5px #aaaaaa;
+          box-shadow: 5px 5px 5px #aaaaaa;
+  -webkit-filter: blur(0.3px);
+          filter: blur(0.3px);
+}
+
+.btn:focus {
+  -webkit-transform: rotate3d(-4, 0, 0, -20deg);
+          transform: rotate3d(-4, 0, 0, -20deg);
+}
+/*# sourceMappingURL=BtnSidebar.module.css.map */

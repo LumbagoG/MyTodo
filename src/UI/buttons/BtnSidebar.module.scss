@@ -1,0 +1,20 @@
+.btn {
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #0F3057;
+	opacity: 0.9;
+	transition: 0.2s ease-in;
+	perspective: 500;
+
+	&:hover {
+		transform: scale(1.03);
+		cursor: pointer;
+		box-shadow: 5px 5px 5px rgb(170, 170, 170);
+		filter: blur(0.3px);
+	}
+
+	&:focus {
+		transform: rotate3d(-4.0, 0.0, 0.0, -20deg);
+	}
+}
