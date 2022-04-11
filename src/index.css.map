@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,2HAA2H;CAC3I",
-    "sources": [
-        "index.scss"
-    ],
-    "names": [],
-    "file": "index.css"
-}
+{"version":3,"sourceRoot":"","sources":["index.scss","assets/styles/mixins/flexbox/flexbox.scss"],"names":[],"mappings":"AAIA;EACI;EACA;EACA;EACA;;;AAGJ;ECRE,SDSmB;ECRnB,gBDQyB;ECPzB,aDO8B;ECN9B,iBDMuC;EAErC;EACA","file":"index.css"}

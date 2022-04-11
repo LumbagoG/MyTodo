@@ -1,8 +1,8 @@
 import React from 'react';
-import { AiOutlineMenu, AiOutlineCarryOut } from "react-icons/ai";
-import { MdOutlineNightlight, MdOutlineRestoreFromTrash } from "react-icons/md";
+import {AiOutlineCarryOut, AiOutlineMenu} from 'react-icons/ai';
+import {MdOutlineNightlight, MdOutlineRestoreFromTrash} from 'react-icons/md';
 // Components
-import BtnSidebar from '../../UI/buttons/BtnSidebar';
+import BtnSidebar from '../../UI/buttons/Btn';
 // Css
 import classes from './Sidebar.module.css';
 

@@ -1,18 +1,16 @@
 import React from 'react';
-import Sidebar from "../../components/sidebar/Sidebar";
-import Header from "../../components/header/Header"
+// Components
+import Sidebar from '../../components/sidebar/Sidebar';
+import Header from '../../components/header/Header';
+
+// Styles
 
 function Tasks(props) {
     return (
-        <div>
-            <Sidebar>
-                
-            </Sidebar>
-
-            <Header>
-
-            </Header>
-        </div>
+        <React.Fragment>
+            <Sidebar />
+            <Header />
+        </React.Fragment>
     );
 }
 

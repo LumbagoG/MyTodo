@@ -1,0 +1,52 @@
+// Mixins
+@import "../../assets/styles/mixins/respond-to/respond-to";
+@import "../../assets/styles/mixins/flexbox/flexbox";
+
+.btn {
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #0F3057;
+	opacity: 0.9;
+	transition: 0.2s ease-in;
+	perspective: 500;
+
+	&:hover {
+		transform: scale(1.03);
+		cursor: pointer;
+		box-shadow: 5px 5px 5px rgb(170, 170, 170);
+		filter: blur(0.3px);
+	}
+
+	&:focus {
+		transform: rotate3d(-4.0, 0.0, 0.0, -20deg);
+	}
+}
+
+@include respond-to('A small mobile device') {
+
+}
+
+@include respond-to('Average mobile device') {
+
+}
+
+@include respond-to('Large mobile device') {
+
+}
+
+@include respond-to('Tablet') {
+
+}
+
+@include respond-to('Laptop') {
+
+}
+
+@include respond-to('Laptop L') {
+
+}
+
+@include respond-to('4K') {
+
+}

@@ -1,0 +1,11 @@
+// For mixin (respond-to) to manage responsive breakpoints
+
+$breakpoints: (
+  'A small mobile device':  ( min-width: 0px ),
+  'Average mobile device': ( min-width: 320px ),
+  'Large mobile device':  ( min-width: 375px ),
+  'Tablet':  ( min-width: 425px ),
+  'Laptop': ( min-width: 768px ),
+  'Laptop L':  ( min-width: 1024px ),
+  '4K':  ( min-width: 1440px )
+) !default;

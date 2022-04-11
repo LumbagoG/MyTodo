@@ -1,13 +1,19 @@
 import React from 'react';
+// Styles
 import classes from './Header.module.css';
-import { RiDashboardLine } from "react-icons/ri";
+// Components
+import Text from '../../UI/text/Text';
 
+/**
+ * Header
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function Header(props) {
     return (
         <header {...props} className={classes.header}>
-            <h1>My Todo</h1>
-
-            <RiDashboardLine />  
+            <Text name={'h1'}>My Todos</Text>
         </header>
     );
 }

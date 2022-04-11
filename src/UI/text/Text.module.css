@@ -1,0 +1,37 @@
+.h1 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -1px * 3);
+}
+
+.h2 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -2px * 3);
+}
+
+.h3 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -3px * 3);
+}
+
+.h4 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -4px * 3);
+}
+
+.h5 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -5px * 3);
+}
+
+.h6 {
+  color: #4e4e64;
+  font-weight: 500;
+  font-size: calc(35px + -6px * 3);
+}
+
+/*# sourceMappingURL=Text.module.css.map */

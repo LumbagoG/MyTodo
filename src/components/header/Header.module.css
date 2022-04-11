@@ -1,6 +1,16 @@
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header {
+  width: 100vw;
+  height: 10%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3.2vh;
 }
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+}
+
 /*# sourceMappingURL=Header.module.css.map */

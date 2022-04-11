@@ -1,13 +1,12 @@
-@import "../../assets/styles/mixins/flexbox/flexbox";
+// Mixins
 @import "../../assets/styles/mixins/respond-to/respond-to";
 
-.header {
-    width: 100vw;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 3.2vh;
+@for $i from 1 to 7 {
+    .h#{$i} {
+        color: #4e4e64;
+        font-weight: 500;
+        font-size: calc(35px + -#{$i}px * 3);
+    }
 }
 
 @include respond-to('A small mobile device') {
@@ -27,9 +26,7 @@
 }
 
 @include respond-to('Laptop') {
-    .header {
-        justify-content: space-between;
-    }
+
 }
 
 @include respond-to('Laptop L') {
