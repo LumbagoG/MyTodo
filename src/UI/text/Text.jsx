@@ -3,12 +3,12 @@ import React from 'react';
 import classes from './Text.module.css';
 
 /**
- * Text component
+ * Text UI component
  * @param {number} children - Text 
  * @param {number} name - HTMLHeadingElement (h1, h2...)
  * @returns {JSX.Element}
  */
-function Text({children,  ...props}) {
+const Text = ({children,  ...props}) => {
 
     function renderText (nameClass) {
         switch (nameClass) {
@@ -50,7 +50,7 @@ function Text({children,  ...props}) {
                 )
             default:
                 console.warn("Uncorrected nameClass of <Text />");
-                console.log("Uncorrect nameClass of <Text />")
+                console.log("Uncorrected nameClass of <Text />")
                 break;
         }
     }

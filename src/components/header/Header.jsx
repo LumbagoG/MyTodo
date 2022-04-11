@@ -1,8 +1,8 @@
 import React from 'react';
-// Styles
-import classes from './Header.module.css';
 // Components
 import Text from '../../UI/text/Text';
+// Styles
+import classes from './Header.module.css';
 
 /**
  * Header
@@ -10,10 +10,10 @@ import Text from '../../UI/text/Text';
  * @returns {JSX.Element}
  * @constructor
  */
-function Header(props) {
+const Header = (props) => {
     return (
         <header {...props} className={classes.header}>
-            <Text name={'h1'}>My Todos</Text>
+            <Text name={'h1'}>My Todos - {props.title}</Text>
         </header>
     );
 }

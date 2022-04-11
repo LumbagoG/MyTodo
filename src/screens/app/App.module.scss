@@ -1,8 +1,9 @@
 // Mixins
 @import "../../assets/styles/mixins/respond-to/respond-to";
+@import "../../assets/styles/mixins/flexbox/flexbox";
 
-.trash{
-  margin: 0;
+.app {
+  @include flexbox(flex, column, center, initial);
 }
 
 @include respond-to('A small mobile device') {

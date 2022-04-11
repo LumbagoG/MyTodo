@@ -3,10 +3,16 @@ import {AiOutlineCarryOut, AiOutlineMenu} from 'react-icons/ai';
 import {MdOutlineNightlight, MdOutlineRestoreFromTrash} from 'react-icons/md';
 // Components
 import BtnSidebar from '../../UI/buttons/Btn';
-// Css
+// Styles
 import classes from './Sidebar.module.css';
 
-function Sidebar(props) {
+/**
+ * Sidebar component
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const Sidebar = (props) => {
     return (
         <aside {...props} className={classes.sidebar}>
 
@@ -17,11 +23,11 @@ function Sidebar(props) {
             </div>
 
             <div className={classes.sidebar__pages}>
-                <BtnSidebar>
+                <BtnSidebar link='/'>
                     <AiOutlineCarryOut />
                 </BtnSidebar>
 
-                <BtnSidebar>
+                <BtnSidebar link='trash'>
                     <MdOutlineRestoreFromTrash />
                 </BtnSidebar>
             </div>

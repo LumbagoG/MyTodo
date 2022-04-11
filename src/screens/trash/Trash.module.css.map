@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "Trash.module.scss"
-    ],
-    "names": [],
-    "file": "Trash.module.css"
-}
+{"version":3,"sourceRoot":"","sources":["Trash.module.scss"],"names":[],"mappings":"AAGA;EACE","file":"Trash.module.css"}

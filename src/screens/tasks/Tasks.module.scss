@@ -1,3 +1,9 @@
+// Mixins
+@import "../../assets/styles/mixins/respond-to/respond-to";
+
+.tasks {
+  margin: 0;
+}
 //@include respond-to('A small mobile device') {
 //
 //}

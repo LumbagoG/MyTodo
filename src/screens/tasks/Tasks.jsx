@@ -1,16 +1,21 @@
 import React from 'react';
 // Components
-import Sidebar from '../../components/sidebar/Sidebar';
+// Styles
+import classes from './Tasks.module.css';
 import Header from '../../components/header/Header';
 
-// Styles
-
-function Tasks(props) {
+/**
+ * Task screen component
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const Tasks = (props) => {
     return (
-        <React.Fragment>
-            <Sidebar />
-            <Header />
-        </React.Fragment>
+        <div {...props} className={classes.tasks}>
+          <Header title='Tasks'/>
+          
+        </div>
     );
 }
 
