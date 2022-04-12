@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["index.scss","assets/styles/mixins/flexbox/flexbox.scss"],"names":[],"mappings":"AAIA;EACI;EACA;EACA;EACA;;;AAGJ;ECRE,SDSmB;ECRnB,gBDQyB;ECPzB,aDO8B;ECN9B,iBDMuC;EAErC;EACA","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["index.scss"],"names":[],"mappings":"AAIA;EACI;EACA;EACA;EACA;;;AAIJ;EACI;EACA","file":"index.css"}

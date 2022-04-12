@@ -3,7 +3,7 @@
 @import "../../assets/styles/mixins/flexbox/flexbox";
 
 .app {
-  @include flexbox(flex, column, center, initial);
+  @include flexbox(flex, column, center, flex-start);
 }
 
 @include respond-to('A small mobile device') {

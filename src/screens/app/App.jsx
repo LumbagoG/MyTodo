@@ -21,7 +21,7 @@ const App = () => {
           <Sidebar />
           
           <div className={classes.app}>
-            <Routes>
+            <Routes className={classes.app}>
               <Route exact path="/" element={<Tasks />} />
               <Route exact path="/trash" element={<Trash />} />
               <Route path="/*" element={<h3>404 - Not found</h3>} />

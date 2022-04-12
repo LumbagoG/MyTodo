@@ -1,6 +1,6 @@
 // Imports
 import React from 'react';
-import classes from './BtnSidebar.module.css';
+import classes from './Btn.module.css';
 import {Link} from 'react-router-dom';
 
 /**

@@ -25,15 +25,15 @@
 
 @media (min-width: 425px) {
   .sidebar {
-    width: 60px;
+    width: 100px;
   }
   .sidebar svg {
-    font-size: 22px;
+    font-size: 30px;
   }
 }
 @media (min-width: 768px) {
   .sidebar {
-    width: 80px;
+    width: 100px;
   }
   .sidebar svg {
     font-size: 30px;

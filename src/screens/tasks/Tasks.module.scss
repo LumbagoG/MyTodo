@@ -4,30 +4,30 @@
 .tasks {
   margin: 0;
 }
-//@include respond-to('A small mobile device') {
-//
-//}
-//
-//@include respond-to('Average mobile device') {
-//
-//}
-//
-//@include respond-to('Large mobile device') {
-//
-//}
-//
-//@include respond-to('Tablet') {
-//
-//}
-//
-//@include respond-to('Laptop') {
-//
-//}
-//
-//@include respond-to('Laptop L') {
-//
-//}
-//
-//@include respond-to('4K') {
-//
-//}
+@include respond-to('A small mobile device') {
+
+}
+
+@include respond-to('Average mobile device') {
+
+}
+
+@include respond-to('Large mobile device') {
+
+}
+
+@include respond-to('Tablet') {
+
+}
+
+@include respond-to('Laptop') {
+
+}
+
+@include respond-to('Laptop L') {
+
+}
+
+@include respond-to('4K') {
+
+}

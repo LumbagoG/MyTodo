@@ -1,8 +1,8 @@
 import React from 'react';
 // Components
+import Header from '../../components/header/Header';
 // Styles
 import classes from './Tasks.module.css';
-import Header from '../../components/header/Header';
 
 /**
  * Task screen component

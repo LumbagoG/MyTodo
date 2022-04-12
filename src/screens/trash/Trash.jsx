@@ -1,10 +1,16 @@
 import React from 'react';
 // Components
+import Header from '../../components/header/Header';
 // Styles
 import classes from './Trash.module.css';
-import Header from '../../components/header/Header';
 
-function Trash(props) {
+/**
+ * Trash screen component
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+const Trash = (props) => {
     return (
         <div {...props} className={classes.trash}>
           <Header title='Trash'/>
